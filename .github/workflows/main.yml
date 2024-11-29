@@ -20,7 +20,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
+          flutter-version: '3.24.5'
           architecture: 'x64'
           cache: false
           pub-cache-path: 'default'
@@ -93,3 +93,4 @@ jobs:
           files: ./artifacts/revanced-manager.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
